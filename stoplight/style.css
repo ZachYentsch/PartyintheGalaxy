@@ -1,0 +1,32 @@
+:root{
+--primary: rgb(19, 18, 18);
+--secondary: rgb(247,21,21);
+--tertiary: rgb(216, 219, 6);
+--quaternary: rgb(0, 255, 13)
+}
+
+header{
+    background-color: var(--primary);
+    height: 10em;
+    width: 4em;
+   margin: 4px 0 0 40em;
+}
+
+.center-column{
+    background-color: var(--primary);
+    height: 30em;
+    width: 15em;
+    margin-left: 34.5em;
+    z-index: 1;
+}
+
+.stoplight{
+    background-color: var(--secondary);
+    height: 8em;
+    width: 11em;
+    z-index: 2;
+    border-radius: 50%;
+    transform: translateX(2em);
+    padding-top: 4em;
+   
+}
